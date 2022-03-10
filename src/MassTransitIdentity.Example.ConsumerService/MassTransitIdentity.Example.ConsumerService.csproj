@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	  <Nullable>enable</Nullable>
+    <UserSecretsId>dotnet-MassTransitIdentity.TestRequestWorker-3020A95C-4649-4790-8F15-5C5D48F10470</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.0.0-develop.388" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.0-develop.388" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MassTransitIdentity.Core\MassTransitIdentity.Core.csproj" />
+    <ProjectReference Include="..\MassTransitIdentity.Example.Contracts\MassTransitIdentity.Example.Contracts.csproj" />
+  </ItemGroup>
+</Project>

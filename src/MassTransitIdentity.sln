@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitIdentity.Core", "MassTransitIdentity.Core\MassTransitIdentity.Core.csproj", "{E6CE0639-8A19-41FE-BC63-51453D06CBEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitIdentity.Example.Contracts", "MassTransitIdentity.Example.Contracts\MassTransitIdentity.Example.Contracts.csproj", "{660928AA-ECC4-4BC8-88AC-C3624B72C4AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitIdentity.Example.ConsumerService", "MassTransitIdentity.Example.ConsumerService\MassTransitIdentity.Example.ConsumerService.csproj", "{2FA0D117-C804-45D2-A3BE-134634452D10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitIdentity.Example.ProviderService", "MassTransitIdentity.Example.ProviderService\MassTransitIdentity.Example.ProviderService.csproj", "{600885FA-57FF-4A6F-9B2B-922974C86184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitIdentity.Example.WebApi", "MassTransitIdentity.Example.WebApi\MassTransitIdentity.Example.WebApi.csproj", "{BF905B9E-8468-4CCA-84B0-F9812509A6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitIdentity.Example.AnotherConsumerService", "MassTransitIdentity.Example.AnotherConsumerService\MassTransitIdentity.Example.AnotherConsumerService.csproj", "{BE62A4D8-91A4-48F4-888E-C1A020CB75C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6CE0639-8A19-41FE-BC63-51453D06CBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CE0639-8A19-41FE-BC63-51453D06CBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CE0639-8A19-41FE-BC63-51453D06CBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CE0639-8A19-41FE-BC63-51453D06CBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660928AA-ECC4-4BC8-88AC-C3624B72C4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660928AA-ECC4-4BC8-88AC-C3624B72C4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660928AA-ECC4-4BC8-88AC-C3624B72C4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660928AA-ECC4-4BC8-88AC-C3624B72C4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA0D117-C804-45D2-A3BE-134634452D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA0D117-C804-45D2-A3BE-134634452D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA0D117-C804-45D2-A3BE-134634452D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA0D117-C804-45D2-A3BE-134634452D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600885FA-57FF-4A6F-9B2B-922974C86184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600885FA-57FF-4A6F-9B2B-922974C86184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600885FA-57FF-4A6F-9B2B-922974C86184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600885FA-57FF-4A6F-9B2B-922974C86184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF905B9E-8468-4CCA-84B0-F9812509A6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF905B9E-8468-4CCA-84B0-F9812509A6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF905B9E-8468-4CCA-84B0-F9812509A6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF905B9E-8468-4CCA-84B0-F9812509A6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE62A4D8-91A4-48F4-888E-C1A020CB75C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE62A4D8-91A4-48F4-888E-C1A020CB75C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE62A4D8-91A4-48F4-888E-C1A020CB75C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE62A4D8-91A4-48F4-888E-C1A020CB75C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D933F648-3C13-4BEC-9E48-7710AB4606E0}
+	EndGlobalSection
+EndGlobal

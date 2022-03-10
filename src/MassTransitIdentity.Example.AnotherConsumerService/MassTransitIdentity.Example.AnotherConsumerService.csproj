@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>dotnet-MassTransitIdentity.Example.AnotherConsumerService-CCD7E151-DDB2-4349-931B-315B7F57AC0D</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.0.0-develop.388" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.0-develop.388" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MassTransitIdentity.Core\MassTransitIdentity.Core.csproj" />
+    <ProjectReference Include="..\MassTransitIdentity.Example.Contracts\MassTransitIdentity.Example.Contracts.csproj" />
+  </ItemGroup>
+</Project>
