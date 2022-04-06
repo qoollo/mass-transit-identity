@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<Title>Qoollo.MassTransitIdentity</Title>
     <PackageId>Qoollo.MassTransitIdentity</PackageId>
     <Copyright>Copyright (c) 2022 Qoollo</Copyright>
     <Description>Library for actor identification through services in MassTransit.</Description>
@@ -12,8 +13,16 @@
     <Authors>Timofey Sabanaev, Alex Baziev, Denis Babarykin</Authors>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<ProjectUrl>https://github.com/qoollo/masstransit-identity</ProjectUrl>
     <RepositoryUrl>https://github.com/qoollo/masstransit-identity</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>MassTransit; Identity; Token</PackageTags>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<Language>en-001</Language>
+	<DevelopmentDependency>False</DevelopmentDependency>
+	<PackageReleaseNotes>Library for actor identification through services in MassTransit.</PackageReleaseNotes>
+
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,7 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MassTransit" Version="8.0.0-develop.394" />
+    <PackageReference Include="MassTransit" Version="8.0.1" />
   </ItemGroup>
 
 </Project>
