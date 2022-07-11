@@ -25,7 +25,7 @@ namespace MassTransitIdentity.Core
             if (Guid.TryParse(context.Headers.Get<string>(nameof(MassTransitIdentityToken)), out Guid clientId))
             {
                 _token.Value = clientId;
-                _logger.LogDebug($"Parsed client: {_token.Value}.");
+                _logger.LogDebug("Parsed client: {TokenValue}.", _token.Value);
             }
 
             return next.Send(context);

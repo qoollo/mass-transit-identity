@@ -24,7 +24,7 @@ namespace MassTransitIdentity.Core
             if (_token.Value != null && _token.Value != Guid.Empty)
             {
                 context.Headers.Set(nameof(MassTransitIdentityToken), _token.Value.Value.ToString());
-                _logger.LogDebug($"Added {nameof(MassTransitIdentityToken)} with value: {_token.Value}.");
+                _logger.LogDebug("Added {MassTransitIdentityToken} with value: {TokenValue}.", nameof(MassTransitIdentityToken), _token.Value);
             }
 
             return next.Send(context);
