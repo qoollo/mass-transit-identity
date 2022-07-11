@@ -22,6 +22,7 @@
 	<Language>en-001</Language>
 	<DevelopmentDependency>False</DevelopmentDependency>
 	<PackageReleaseNotes>Library for actor identification through services in MassTransit.</PackageReleaseNotes>
+	<Version>1.0.1</Version>
 
   </PropertyGroup>
 
@@ -33,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MassTransit" Version="8.0.1" />
+    <PackageReference Include="MassTransit" Version="8.0.4" />
   </ItemGroup>
 
 </Project>
